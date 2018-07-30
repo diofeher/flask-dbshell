@@ -1,7 +1,7 @@
 from . import BaseBackend
 
 
-class PostgresqlBackend(BaseBackend):
+class PostgresBackend(BaseBackend):
 
     def compile_command(self):
         parts = []
