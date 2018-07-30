@@ -30,7 +30,7 @@ How to use
 Example of a simple script that runs mysql's shell
 
 ```python
-from flask.ext.dbshell import DbShell
+from flask_dbshell import DbShell
 
 
 def main():
