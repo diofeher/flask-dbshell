@@ -1,3 +1,8 @@
+NOTICE!
+-------
+This is a port from Flask-DbShell to work with Python3 by @diofeher
+
+
 Flask DbShell
 ===================
 
@@ -41,8 +46,8 @@ Example of use with Flask-Script:
 
 ```python
 from flask import Flask
-from flask.ext.script import Manager
-from flask.ext.dbshell import DbShell
+from flask_script import Manager
+from flask_dbshell import DbShell
 
 
 class DevConfig(object):
@@ -68,4 +73,4 @@ if __name__ == "__main__":
 Python versions supported
 -------------------------
 
-Tested with 2.6.x and 2.7.x
+Tested with 3.7.x

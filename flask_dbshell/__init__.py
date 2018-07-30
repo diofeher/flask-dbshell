@@ -1,4 +1,4 @@
-from urlparse import urlsplit
+from urllib.parse import urlsplit
 
 from .backends import load_backend
 
