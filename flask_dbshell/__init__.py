@@ -51,7 +51,7 @@ class DbUrl(object):
         self._set_parts(**parts)
 
     def _set_parts(self, **kwargs):
-        for key, val in kwargs.iteritems():
+        for key, val in kwargs.items():
             if key not in self._KNOWN_PARTS:
                 raise AttributeError('Unknown argument: "%s"' % key)
             setattr(self, key, val)
